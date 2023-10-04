@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    border: 2px solid;
+    margin: auto;
+    margin-top: 10rem;
+
+}
+
+.imageborder{
+    background-image: url(../assets/car.jpg);
+    width: 30rem;
+    height: 30rem;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    aspect-ratio: 1/1;
+}
